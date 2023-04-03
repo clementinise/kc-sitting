@@ -1,2 +1,11 @@
+<1.1>
+- Added a new scenario, sit on stairs, for an even more diverse seating experience (please report any stairs that don't work)
+- Implemented a check to avoid players sitting inside each other
+- Introduced a config option for customizing conditions that affect the player getting up
+- Added a 2D Text prompt, so you know which key to press to get up
+- Included new debug prints for easier troubleshooting
+- Added a locale system to choose the language for the script's text
+- Integrated new checks to avoid exploits, ensuring you aren't in a car or already seated
+- Fixed an issue that could result in you being seated at 0.0 0.0 0.0 coordinates
 <1.0>
 - Initial Release
