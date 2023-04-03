@@ -7,5 +7,6 @@
 - Added a locale system to choose the language for the script's text
 - Integrated new checks to avoid exploits, ensuring you aren't in a car or already seated
 - Fixed an issue that could result in you being seated at 0.0 0.0 0.0 coordinates
+- Fixed an issue with the changelog only displaying the first line
 <1.0>
 - Initial Release
