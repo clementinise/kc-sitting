@@ -1,3 +1,7 @@
+<1.1.1>
+- 3 New Config options: Config.CommandTitle, Config.CommandInputMapper, and Config.CommandInputParameter to bind the command to a key
+- New export `exports['kc-sitting']:IsSitting()`: Returns whether the player is sitting
+- Added function `CanSit()` in the config to add custom conditions for sitting
 <1.1>
 - Added a new scenario, sit on stairs, for an even more diverse seating experience (please report any stairs that don't work)
 - Implemented a check to avoid players sitting inside each other
