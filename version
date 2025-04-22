@@ -1,3 +1,10 @@
+<1.2>
+- Added anti-spam protection to prevent animation glitches
+- Fixed camera getting stuck up your backside when sitting
+- Integrated height adjustment system for different player models/clothing
+- Added cooldown after standing up to prevent stuttering
+- Added notification when trying to sit while getting up
+- Improved entity reference handling for better performance
 <1.1.1>
 - 3 New Config options: Config.CommandTitle, Config.CommandInputMapper, and Config.CommandInputParameter to bind the command to a key
 - New export `exports['kc-sitting']:IsSitting()`: Returns whether the player is sitting
